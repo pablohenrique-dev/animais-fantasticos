@@ -5,7 +5,7 @@ export default class ScrollAnima {
     this.sections = document.querySelectorAll(sections);
     this.windowMetade = window.innerHeight * 0.4;
 
-    this.checkDistance = debounce(this.checkDistance.bind(this), 150)
+    this.checkDistance = debounce(this.checkDistance.bind(this), 50)
   }
 
   getDistance() {
